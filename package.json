@@ -1,0 +1,16 @@
+{
+  "name": "steam-price-tracker",
+  "version": "1.0.0",
+  "description": "App for tracking Steam Community Market items prices, get alert messages to email. Prices updates automatically every 5min.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nepatyres",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "nodemailer": "^6.9.14",
+    "puppeteer": "^22.11.2"
+  }
+}
